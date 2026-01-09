@@ -1,0 +1,14 @@
+2026-01-09T00:26:52.965Z INFO Is remote: false
+2026-01-09T00:26:52.967Z INFO Starting Local. Installation path: /pythagora/
+2026-01-09T00:26:52.968Z INFO [MainProvider] Creating new MainProvider instance...
+2026-01-09T00:26:52.969Z INFO [TabsManager] Code view listener set up at initialization
+2026-01-09T00:26:52.971Z INFO Installation path exists: /pythagora/
+2026-01-09T00:26:52.989Z INFO Initializing database with URL: file:\pythagora\pythagora-core\data\database\pythagora.db
+2026-01-09T00:26:53.015Z INFO Database file exists, skipping prisma generate/push for faster startup
+2026-01-09T00:26:53.015Z INFO Database initialized successfully
+2026-01-09T00:26:53.016Z INFO [Migration] Checking for database migration...
+2026-01-09T00:26:53.247Z INFO [Migration] No migration needed
+2026-01-09T00:27:05.645Z INFO [TabsManager] First file opened, triggering split view
+2026-01-09T00:27:05.646Z INFO [MainProvider] First file opened, creating split view
+2026-01-09T00:28:09.912Z INFO [TabsManager] First file opened, triggering split view
+2026-01-09T00:28:09.914Z INFO [MainProvider] First file opened, creating split view
