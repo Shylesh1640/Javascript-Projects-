@@ -12,3 +12,29 @@
 2026-01-09T00:27:05.646Z INFO [MainProvider] First file opened, creating split view
 2026-01-09T00:28:09.912Z INFO [TabsManager] First file opened, triggering split view
 2026-01-09T00:28:09.914Z INFO [MainProvider] First file opened, creating split view
+2026-01-09T01:30:59.157Z INFO Closing entire Pythagora extension...
+2026-01-09T01:30:59.194Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new OU (file:///c:/Users/Shylesh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120707)
+    at AE.U (file:///c:/Users/Shylesh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:125317)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/Shylesh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:122811)
+    at mA.g (file:///c:/Users/Shylesh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:41231)
+    at mA.executeCommand (file:///c:/Users/Shylesh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:40735)
+    at Object.executeCommand (file:///c:/Users/Shylesh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:213:102115)
+    at closeEntirePythagoraExtension (c:\Users\Shylesh\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.19\out\extension.js:542:31)
+    at Object.deactivate (c:\Users\Shylesh\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.19\out\extension.js:409:15)
+    at kK.eb (file:///c:/Users/Shylesh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:11850)
+    at file:///c:/Users/Shylesh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10000
+    at Array.map (<anonymous>)
+    at kK.$ (file:///c:/Users/Shylesh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:9988)
+    at kK.terminate (file:///c:/Users/Shylesh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:10231)
+    at UM.terminate (file:///c:/Users/Shylesh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:914)
+    at _s (file:///c:/Users/Shylesh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:11135)
+    at MessagePortMain.<anonymous> (file:///c:/Users/Shylesh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:7610)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+    at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+Extra context: {
+  "message": "Canceled"
+}
